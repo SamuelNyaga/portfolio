@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samuel's portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <header>
+        <nav class="float-in">
+            <div class="logo">Samuel Nyaga</div>
+            <ul>
+                <li><a href="#" data-section="about">About</a></li>
+                <li><a href="#" data-section="projects">Projects</a></li>
+                <li><a href="#" data-section="skills">Skills</a></li>
+                <li><a href="#" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+        <section class="hero float-in">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Hello, I'm Samuel Nyaga</h1>
+                    <p>Web Developer | Designer | Creator | Editor </p>
+                    <a href="#" data-section="projects" class="cta-btn">View My Work</a>
+                </div>
+                <div class="hero-image">
+                    <img src="6b062ae5-046a-4ee8-bc8d-c8b619d0b7fe.jpeg" alt="Profile Picture">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- Sidebar overlays for sections -->
+    <aside id="sidebar-overlay">
+        <div class="sidebar-content" id="sidebar-about">
+            <button class="close-btn">&times;</button>
+            <h2>About Me</h2>
+            <p>I am a versatile creative professional skilled in web development, graphic design, and video editing. I build responsive, user-friendly websites, craft impactful visual designs, and produce engaging video content. By combining technical expertise with creativity, I deliver complete digital solutions that help brands stand out, communicate effectively, and connect with their audiences across platforms.</p>
+        </div>
+        <div class="sidebar-content" id="sidebar-projects">
+            <button class="close-btn">&times;</button>
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-card">
+                    <p>This being one of the projects, be assured of quality work when you hire me</p>
+                </div>
+                <!-- Add more projects as needed -->
+            </div>
+        </div>
+        <div class="sidebar-content" id="sidebar-skills">
+            <button class="close-btn">&times;</button>
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>React</li>
+                <li>Node Js</li>
+                
+                <li>Web hosting</li>
+                <li>Domain purchase</li>
+                <li>formspree</li>
+                <li>Github pages</li>
+                <li>Canva</li>
+                <li>Gimp</li>
+                
+                
+                <P>With this Skills be assured of a fully responsive static website with a fully functional admin panel. </P>
+            </ul>
+        </div>
+        <div class="sidebar-content" id="sidebar-contact">
+            <button class="close-btn">&times;</button>
+            <h2>Contact Me</h2>
+            <div class="contact-icons">
+                <a href="https://facebook.com/KahatiaClout" target="_blank" title="Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="mailto:sammynyagah1@gmail.com" title="Gmail">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="mailto:sammynyagah1@outlook.com" title="Outlook">
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+            <form action="https://formspree.io/f/mkgvenzv" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Samuel Nyaga. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
